@@ -62,12 +62,12 @@ select {
 }
 /* ------------------------------------------------- */
 body{
-    position: absolute;
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
-    
-    overscroll-behavior: inherit !important;
+    /* position: absolute; */
+    /* overflow: hidden; */
+    /* height: 100%;
+    width: 100%; */
+    background-color: rgb(246, 244, 244);
+    /* overscroll-behavior: inherit !important; */
     
 }
 
@@ -79,20 +79,20 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     width:100%;
-    background-color: rgb(246, 244, 244);
+    /* background-color: rgb(246, 244, 244); */
     align-items: center;
-	min-height: 89.5vh;
+	min-height: 89vh;
+    max-height: 89vh;
+
 	margin: 0;
     text-align: center;
-    padding-bottom: 0 !important
-
     
     /* overflow: hidden; */
 }
 
 @media only screen and (max-width: 400px) {
     .content-height {
-        min-height: 66vh !important;  
+        min-height: 65.5vh !important;  
         /* max-height: 50vh !important; */
         margin-bottom: 35vh !important;
         padding-top: 35px;
