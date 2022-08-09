@@ -75,10 +75,11 @@ select {
 
 @media only screen and (max-width: 400px) {
     .content-height {
-        min-height: 65vh !important;  
+        min-height: 68vh !important;  
         /* max-height: 50vh !important; */
         margin-bottom: 40vh !important;
-        padding-top: 35px;
+        padding-top: 20px;
+        /* padding-bottom: 30px !important; */
         overflow: auto;
       }
 }
