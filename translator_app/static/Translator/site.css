@@ -77,9 +77,9 @@ select {
     .content-height {
         min-height: 68vh !important;  
         /* max-height: 50vh !important; */
-        margin-bottom: 40vh !important;
-        padding-top: 20px;
-        /* padding-bottom: 30px !important; */
+        margin-bottom: 35vh !important;
+        padding-top: 35px;
+        padding-bottom: 30px;
         overflow: auto;
       }
 }
