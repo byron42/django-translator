@@ -61,7 +61,9 @@ select {
     font-weight: 400;
 }
 /* ------------------------------------------------- */
-
+body{
+    overflow: hidden;
+}
 
 .body {
     /* font-family:  "roboto", sans-serif; */
@@ -80,7 +82,7 @@ select {
 
 @media only screen and (max-width: 400px) {
     .content-height {
-        min-height: 68vh !important;  
+        min-height: 66vh !important;  
         /* max-height: 50vh !important; */
         margin-bottom: 35vh !important;
         padding-top: 35px;
