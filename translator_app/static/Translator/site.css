@@ -1,9 +1,11 @@
 header{
     display: flex;
     justify-content: center;
-    background:rgba(95, 95, 97, 0.6);
-    /* background-color: rgb(226, 224, 224); */
-    width:auto !important;
+    /* background:rgba(95, 95, 97, 0.6); */
+    background-color: rgb(149, 160, 207);
+    width: auto !important;
+
+    border: 1px solid rgb(145, 144, 144);
 }
 
 hr {
@@ -18,6 +20,9 @@ h1 {
     font-weight: 500;
     /* color: rgba(59, 59, 59, 0.6); */
     color: rgb(226, 224, 224);
+    text-shadow: 1.5px 1.5px #565555;
+
+
     text-align: center !important;
     text-align: left;
     padding: 15px;
@@ -91,7 +96,7 @@ select {
 
 .content {
     background-color: rgb(226, 224, 224);
-    border-radius: 10px;
+    border-radius: 5px;
     min-width: 250px;
     /* min-height: 70vh; */
     /* width: 80%; */
@@ -107,6 +112,7 @@ select {
     flex-wrap: nowrap;
     /* max-height: 70vh; */
     padding-bottom: 30px;
+    border: 1px solid rgb(198, 198, 198);
 }
 
 .trans-pad {
@@ -120,6 +126,7 @@ select {
 
 .btn-bg {
     background-color: rgb(149, 160, 207);
+    border: 1px solid rgb(114, 113, 113);
 }
 
 /* -------------------------------------------------------------------------translated text color */
