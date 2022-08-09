@@ -62,9 +62,13 @@ select {
 }
 /* ------------------------------------------------- */
 body{
-    position: relative;
+    position: absolute;
     overflow: hidden;
     height: 100%;
+    width: 100%;
+    
+    overscroll-behavior: auto;
+    
 }
 
 .body {
@@ -80,11 +84,14 @@ body{
 	min-height: 89.5vh;
 	margin: 0;
     text-align: center;
+
+    
+    /* overflow: hidden; */
 }
 
 @media only screen and (max-width: 400px) {
     .content-height {
-        min-height: 65vh !important;  
+        min-height: 65.5vh !important;  
         /* max-height: 50vh !important; */
         margin-bottom: 35vh !important;
         padding-top: 35px;
