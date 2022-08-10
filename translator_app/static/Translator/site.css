@@ -83,9 +83,9 @@ body {
 
 @media only screen and (max-width: 400px) {
     .content-height {
-        min-height: 66vh !important;  
-        max-height: 66vh !important;
-        margin-bottom: 17vh !important;
+        min-height: 63vh !important;  
+        max-height: 63vh !important;
+        margin-bottom: 30vh !important;
         padding-top: 35px;
         padding-bottom: 30px;
         overflow: auto;
