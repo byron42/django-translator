@@ -68,8 +68,8 @@ body{
     width: 100%; */
     background-color: rgb(246, 244, 244);
     /* overscroll-behavior: inherit !important; */
-    min-height: 89.5vh;
-    max-height: 89.5vh !important;
+    /* min-height: 89.5vh;
+    max-height: 89.5vh !important; */
     
 }
 
@@ -96,13 +96,9 @@ body{
 
 @media only screen and (max-width: 400px) {
     .content-height {
-
-        position: absolute;
-        top: 35px;
-
-
-
-        min-height: 65.7vh !important;  
+        position: fixed;
+        top: -65px;
+        min-height: 66vh !important;  
         /* max-height: 50vh !important; */
         /* margin-bottom: 35vh !important; */
         padding-top: 35px;
