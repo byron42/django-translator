@@ -68,6 +68,7 @@ body{
     width: 100%; */
     background-color: rgb(246, 244, 244);
     /* overscroll-behavior: inherit !important; */
+    min-height: 89.5vh;
     max-height: 89.5vh !important;
     
 }
