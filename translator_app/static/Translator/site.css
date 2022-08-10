@@ -86,7 +86,7 @@ body {
         min-height: 65vh !important;  
         max-height: 65vh !important;
         margin-bottom: 33vh !important;
-        padding-top: 35px;
+        padding-top: 35px !important;
         padding-bottom: 30px;
         overflow: auto;
       }
