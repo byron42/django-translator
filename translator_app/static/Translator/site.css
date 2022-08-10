@@ -96,9 +96,15 @@ body{
 
 @media only screen and (max-width: 400px) {
     .content-height {
+
+        position: absolute;
+        top: 35px;
+
+
+
         min-height: 65.7vh !important;  
         /* max-height: 50vh !important; */
-        margin-bottom: 35vh !important;
+        /* margin-bottom: 35vh !important; */
         padding-top: 35px;
         padding-bottom: 30px;
         overflow: auto;
