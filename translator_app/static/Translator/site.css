@@ -68,8 +68,9 @@ body{
     width: 100%; */
     background-color: rgb(246, 244, 244);
     /* overscroll-behavior: inherit !important; */
-    min-height: 89.5vh;
-    max-height: 89.5vh !important;
+    /* min-height: 89.5vh;
+    max-height: 89.5vh !important; */
+    max-height: 700px !important;
     
 }
 
@@ -98,7 +99,7 @@ body{
     .content-height {
         min-height: 66vh !important;  
         max-height: 66vh !important;
-        margin-bottom: 18vh !important;
+        margin-bottom: 17vh !important;
         padding-top: 35px;
         padding-bottom: 30px;
         overflow: auto;
