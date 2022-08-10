@@ -68,6 +68,7 @@ body{
     width: 100%; */
     background-color: rgb(246, 244, 244);
     /* overscroll-behavior: inherit !important; */
+    max-height: 89.5vh !important;
     
 }
 
@@ -82,7 +83,7 @@ body{
     height:100%;
     /* background-color: rgb(246, 244, 244); */
     align-items: center;
-	/* min-height: 89.5vh; */
+	min-height: 89.5vh;
     max-height: 89.5vh !important;
 
 
